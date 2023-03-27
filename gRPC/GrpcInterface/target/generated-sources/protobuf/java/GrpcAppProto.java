@@ -45,12 +45,13 @@ public final class GrpcAppProto {
       "name\030\001 \001(\t\022\013\n\003age\030\002 \001(\005\"\037\n\014GrpcResponse\022" +
       "\017\n\007message\030\001 \001(\t\"&\n\nfibRequest\022\013\n\003pow\030\001 " +
       "\001(\005\022\013\n\003num\030\002 \001(\005\"(\n\013fibResponse\022\013\n\003fib\030\001" +
-      " \001(\005\022\014\n\004fib2\030\002 \001(\0052\235\001\n\013GrpcService\022.\n\rgr" +
+      " \001(\005\022\014\n\004fib2\030\002 \001(\0052\315\001\n\013GrpcService\022.\n\rgr" +
       "pcProcedure\022\014.GrpcRequest\032\r.GrpcResponse" +
       "\"\000\0222\n\017streamProcedure\022\014.GrpcRequest\032\r.Gr" +
       "pcResponse\"\0000\001\022*\n\tstreamFib\022\013.fibRequest" +
-      "\032\014.fibResponse\"\0000\001B\026B\014GrpcAppProtoP\001\242\002\003G" +
-      "APb\006proto3"
+      "\032\014.fibResponse\"\0000\001\022.\n\013streamToSrv\022\014.Grpc" +
+      "Request\032\r.GrpcResponse\"\000(\001B\026B\014GrpcAppPro" +
+      "toP\001\242\002\003GAPb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

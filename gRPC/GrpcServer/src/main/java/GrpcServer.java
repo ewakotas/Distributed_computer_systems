@@ -89,4 +89,30 @@ public class GrpcServer {
             responseObserver.onCompleted();
 
         }
-    } }
+        StreamObserver<GrpcRequest> srvObserver = new StreamObserver<GrpcRequest>()
+        {
+
+            @Override
+            public void onNext(GrpcRequest grpcRequest) {
+                System.out.println("-->async unary onNext: " +
+                        grpcRequest.getName());
+            }
+
+            public void onError(Throwable throwable) {
+                System.out.println("-->async unary onError");
+            }
+            public void onCompleted() {
+                GrpcResponse response = GrpcResponse.newBuilder().build();
+                responseObserver.onNext(response);
+                responseObserver.onCompleted();
+                System.out.println("-->async unary onCompleted");
+            }
+        };
+
+        public StreamObserver<GrpcRequest> streamToSrv(StreamObserver<GrpcResponse>
+                                                              responseObserver)
+        {
+            return srvObserver;
+        }
+    }
+}

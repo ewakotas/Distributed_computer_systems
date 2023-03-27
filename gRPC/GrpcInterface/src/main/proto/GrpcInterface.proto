@@ -8,6 +8,7 @@ service GrpcService {
   rpc grpcProcedure (GrpcRequest) returns (GrpcResponse) {}
   rpc streamProcedure (GrpcRequest) returns (stream GrpcResponse) {}
   rpc streamFib (fibRequest) returns (stream fibResponse) {}
+  rpc streamToSrv (stream GrpcRequest) returns (GrpcResponse) {}
 }
 // The request message containing the user's name and age.
 message GrpcRequest {

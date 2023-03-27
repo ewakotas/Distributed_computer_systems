@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c66525d-0a1d-4933-8335-0cf657567260" name="Changes" comment="" />
+    <list default="true" id="3c66525d-0a1d-4933-8335-0cf657567260" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/src/main/proto/GrpcInterface.proto" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/src/main/proto/GrpcInterface.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcAppProto.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcAppProto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcInterface.proto" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcInterface.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBaseDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceBlockingStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFileDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceFutureStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceImplBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceMethodDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$GrpcServiceStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/classes/GrpcServiceGrpc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/generated-sources/protobuf/grpc-java/GrpcServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/generated-sources/protobuf/grpc-java/GrpcServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcInterface/target/generated-sources/protobuf/java/GrpcAppProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcInterface/target/generated-sources/protobuf/java/GrpcAppProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcServer/src/main/java/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcServer/src/main/java/GrpcServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,12 +50,13 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2MopsbGAgu3igqnglT546zJDm49" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../gRPC" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
